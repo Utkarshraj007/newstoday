@@ -10,7 +10,7 @@ export class NewsItem extends Component {
                 <h5 className="card-title">{title}<span class="position-absolute top-0 translate-middle badge rounded-pill bg-success" style={{left:'90%',zIndex:'1'}}>{source}</span></h5>
                 <p className="card-text">{description}</p>
                 <p className="card-text"><small className="text-muted"></small>By {author} on {new Date(date).toGMTString()} </p>
-                <a rel="noforever" href={newsUrl} target="_blank" className="btn btn-sm btn-dark">Read More</a>
+                <a rel="noreferrer" href={newsUrl} target="_blank" className="btn btn-sm btn-dark">Read More</a>
             </div>
             </div>
       </div>
